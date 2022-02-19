@@ -1,11 +1,11 @@
 language: "ja"  # your two-letter language code
 
 pipeline:
-  # - name: SpacyNLP
-  #   model: "ja_core_news_sm"
-  # - name: SpacyTokenizer
-  # - name: SpacyFeaturizer
-  - name: MecabTokenizer
+  - name: SpacyNLP
+    model: "ja_core_news_sm"
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  # - name: MecabTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
