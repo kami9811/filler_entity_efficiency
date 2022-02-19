@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-filler",
+      "2": "I-filler",
+      "3": "L-filler",
+      "4": "U-filler",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-filler": 1,
+      "I-filler": 2,
+      "L-filler": 3,
+      "U-filler": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]
