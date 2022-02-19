@@ -40,7 +40,7 @@ from rasa.nlu.tokenizers.spacy_tokenizer import SpacyTokenizer
 from rasa.nlu.tokenizers.whitespace_tokenizer import WhitespaceTokenizer
 from rasa.nlu.tokenizers.lm_tokenizer import LanguageModelTokenizer
 from rasa.nlu.tokenizers.mecab_tokenizer import MecabTokenizer
-from rasa.nlu.tokenizers.mecab_neologd_tokenizer import MecabNEologdTokenizer
+# from rasa.nlu.tokenizers.mecab_neologd_tokenizer import MecabNEologdTokenizer
 from rasa.nlu.utils.mitie_utils import MitieNLP
 from rasa.nlu.utils.spacy_utils import SpacyNLP
 from rasa.nlu.utils.hugging_face.hf_transformers import HFTransformersNLP
@@ -72,7 +72,7 @@ component_classes = [
     JiebaTokenizer,
     LanguageModelTokenizer,
     MecabTokenizer,
-    MecabNEologdTokenizer,
+    # MecabNEologdTokenizer,
     # extractors
     SpacyEntityExtractor,
     MitieEntityExtractor,
